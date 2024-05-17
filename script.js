@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
     const screenHeight= window.innerHeight;
     const numcols= Math.ceil(screenWidth/blockSize);
     const numrows= Math.ceil(screenHeight/blockSize);
-    const numBlocks= numcols*numrows;
+    const numBlocks= numcols*numrows+20;
 
     function createBlocks(){
         for(let i=0; i<numBlocks; i++){
